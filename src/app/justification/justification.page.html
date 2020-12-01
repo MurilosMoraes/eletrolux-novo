@@ -1,0 +1,100 @@
+<ion-content>
+
+  <div>
+    <img class="arrow-back" src="../../assets/back.png" alt="back">
+    <H1 class="title">
+      General info
+    </H1>
+    <!-- <ion-button size="large" class="bt-clear">Clear Form</ion-button> -->
+    <ion-button size="large" class="bt-clear" (click)="next()">Next</ion-button>
+
+    <img class="menu" src="../../assets/menu.png" alt="menu" (click)="menu()">
+  </div>
+
+
+  <div class="container">
+    <div class="container-l">
+      <p class="name-input-l mg-top-25-percent">
+        Suplier Name
+      </p>
+      <ion-item class="style-input-l">
+        <ion-label></ion-label>
+        <ion-input placeholder="Type Here"></ion-input>
+      </ion-item>
+
+      <p class="name-input-l">
+        Lead Auditor
+      </p>
+      <ion-item class="style-input-l">
+        <ion-label></ion-label>
+        <ion-input placeholder="Type Here"></ion-input>
+      </ion-item>
+
+      <p class="name-input-l">
+        Assessment
+      </p>
+      <ion-item class="style-input-l">
+        <ion-label></ion-label>
+        <ion-input placeholder="Type Here"></ion-input>
+      </ion-item>
+
+      <p class="name-input-r ">
+        Comodit (step-1 select-1)
+      </p>
+      <ion-item class="style-input-l">
+        <ion-label></ion-label>
+        <ion-select placeholder="Select One">
+          <ion-select-option color="primary" value="1"></ion-select-option>
+          <ion-select-option color="primary" value="2"></ion-select-option>
+        </ion-select>
+      </ion-item>
+    </div>
+
+
+    <div class="container-r">
+
+      <p class="name-input-r mg-top-25-percent">
+        Audit date
+      </p>
+      <ion-item class="style-input-r">
+        <ion-label></ion-label>
+        <ion-datetime></ion-datetime>
+      </ion-item>
+
+      <p class="name-input-r">
+        Auditors
+      </p>
+      <ion-item class="style-input-r">
+        <ion-label></ion-label>
+        <ion-input placeholder="Seperate with commas"></ion-input>
+      </ion-item>
+
+      <p class="name-input-r ">
+        Product division (Select all that apply)
+      </p>
+      <ion-item class="style-input-r">
+        <ion-label></ion-label>
+        <ion-select placeholder="Select One">
+          <ion-select-option color="primary" value="1">Europe</ion-select-option>
+          <ion-select-option color="primary" value="2">North America</ion-select-option>
+          <ion-select-option color="primary" value="2">Latin America</ion-select-option>
+          <ion-select-option color="primary" value="2">Asia Pacific</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <!-- <p class="name-input-r">
+        Product Line (Select all that apply)
+      </p>
+      <ion-item class="style-input-r">
+        <ion-label></ion-label>
+        <ion-select placeholder="Select One">
+          <ion-select-option color="primary" value="f">Female</ion-select-option>
+          <ion-select-option color="primary" value="m">Male</ion-select-option>
+        </ion-select>
+      </ion-item> -->
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  
+</ion-footer>

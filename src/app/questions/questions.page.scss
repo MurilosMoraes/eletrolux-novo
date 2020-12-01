@@ -1,0 +1,127 @@
+ion-content{
+    --ion-background-color:#002d62;
+}
+
+.container{
+    position: relative;
+}
+
+.arrow-back {
+    position: absolute;
+    width: 4%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.logo-style {
+    position: absolute;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-top: 40px;
+}
+.menu {
+    width: 5%;
+    position: absolute;
+    right: 5%;
+    top: 40px;
+}
+.question{
+    margin-top: 15%;
+    width: 80%;
+    margin-left: 10%;
+    color: #ffffff;
+}
+
+.rating{
+    margin-top: 50px;
+    font-weight: 300; 
+    width: 80%;
+    margin-left: 10%;
+    color: #ffffff;
+}
+
+.container-radio{
+    margin-top: 30px;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.text-radio{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+
+}
+
+ion-item{
+    --ion-item-background:transparent;
+    --ion-background-color: transparent;
+}
+
+ion-radio{
+    --ion-color-step-400:#ffffff;
+    
+}
+
+.radio{
+    width: 45px;
+    height: 45px;
+}
+
+
+.style-input {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+
+}
+
+.name-input {
+    width: 80%;
+    margin-left: 10%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+ion-item {
+ 
+    //--border-width: 2px;
+    --border-radius: 15px;
+    --ion-item-border-color: #ffffff;
+
+}
+.clips{
+    width: 30px;
+    height: 30px;
+}
+
+.bt-clear {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+ion-button {
+    --ion-color-primary: #2cdd00;
+    --border-radius: 100px;
+    --padding-top: 0;
+    --padding-bottom: 0;
+    --padding-start: 4em;
+    --padding-end: 4em;
+}
